@@ -164,7 +164,7 @@ const onKeyDown = (key) => {
       checkGuess(currentWord, WORD_OF_THE_DAY);
     } else {
       currentRow.setAttribute('data-animation', 'invalid');
-      showMessage('That\'s not even a real word, is it?');
+      showMessage('You have the IQ of Aiden, huh?');
     }
 
     return;
